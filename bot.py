@@ -22,7 +22,7 @@ DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user}")
-    guild = bot.get_guild(796000399252652033)  # Replace with your actual guild ID
+    guild = bot.get_guild("TARGET SERVER")  # Replace with your actual guild ID
 
     if guild is None:
         print("Could not find the guild.")
